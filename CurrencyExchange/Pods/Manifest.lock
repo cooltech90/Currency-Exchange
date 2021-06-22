@@ -1,0 +1,16 @@
+PODS:
+  - AYPopupPickerView (1.2)
+
+DEPENDENCIES:
+  - AYPopupPickerView
+
+SPEC REPOS:
+  trunk:
+    - AYPopupPickerView
+
+SPEC CHECKSUMS:
+  AYPopupPickerView: 639e88c630c79f68e1dc34cf2c90f43ea2dbff46
+
+PODFILE CHECKSUM: b5a8bea0871eecd5e4e424560315df9e2a098087
+
+COCOAPODS: 1.10.1

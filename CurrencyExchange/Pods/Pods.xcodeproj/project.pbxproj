@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0734039BBD836749E5EBE6FF95454B /* Pods-CurrencyExchange-CurrencyExchangeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8BDAC8BFA928F237D2D678C99DFD63 /* Pods-CurrencyExchange-CurrencyExchangeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500E7CBA7C9A4E02A1EA1226050279D7 /* Pods-CurrencyExchange-CurrencyExchangeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9794F1F0F6E6442D453CDBAD9D2104 /* Pods-CurrencyExchange-CurrencyExchangeUITests-dummy.m */; };
+		541FC73F729F94036F8734DE14BBC791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		716DFB4A3702A71F649BC7485D761268 /* Pods-CurrencyExchangeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94953D765F2FED1BD5E5AB7471BA1612 /* Pods-CurrencyExchangeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87345D72BCF2E8D8175349DDD0EADF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		89F22C7688DE1EA7F1DC95AE6DC3E700 /* Pods-CurrencyExchange-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCBB6AD74F4064EF1E187F2FCF4E914 /* Pods-CurrencyExchange-dummy.m */; };
+		8C65A7C8B1AEE5469F35E4D2D7B1D49F /* Pods-CurrencyExchange-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0016B6131AB8BC931E1DE047D58E7EC9 /* Pods-CurrencyExchange-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B44A75441F308F107C0C908A259990ED /* AYPopupPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56884B84D8B081672A01E5FD1F140186 /* AYPopupPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4BC25BDB277AAE3333ADE6009EB006A /* AYPopupDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0D85D6C73C634724739AA5A3178675 /* AYPopupDatePickerView.swift */; };
+		C6D47189BCF27BF8CBA9B39DE7F6A393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CDE9892F07D36AA99E95431216457235 /* AYPopupPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B716F501744D7F645F91445BD79C5 /* AYPopupPickerView-dummy.m */; };
+		D6D7C75571F41E8D0EE4A3588A51837B /* UIWindow+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E7E330C6F24FDD083C7692E610D4F /* UIWindow+.swift */; };
+		E7491A198D5FDAF7EA59CA6F10933B41 /* Pods-CurrencyExchangeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92765267A197C4FF3AEA55C09C5A49CE /* Pods-CurrencyExchangeTests-dummy.m */; };
+		F1B9B65D7836DF2FCFD926BA1542305D /* AYPopupPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99033786C3D578A3F4CB1C42549AD0 /* AYPopupPickerView.swift */; };
+		FE6369D223A207A4198449454CC6CD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D93687D8D71C0221300401C2527F9F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F2A7FE151FA10B2E0E5548C0DCF4E4;
+			remoteInfo = AYPopupPickerView;
+		};
+		79EE458F0B1E3F84047DB88A84DEB241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F2A7FE151FA10B2E0E5548C0DCF4E4;
+			remoteInfo = AYPopupPickerView;
+		};
+		9676543BA7F2C6734896048E19ED9843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FC30F6F2D627F041D7803A9B38888F;
+			remoteInfo = "Pods-CurrencyExchange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0016B6131AB8BC931E1DE047D58E7EC9 /* Pods-CurrencyExchange-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CurrencyExchange-umbrella.h"; sourceTree = "<group>"; };
+		079897D03A70D22864309E06E5608916 /* AYPopupPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPopupPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		0EB70F624916531797A088D4426A1F0D /* Pods_CurrencyExchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CurrencyExchange.framework; path = "Pods-CurrencyExchange.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1158F8077B3CBA39736DFAD1765F83E7 /* Pods-CurrencyExchange-CurrencyExchangeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CurrencyExchange-CurrencyExchangeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		151E7E330C6F24FDD083C7692E610D4F /* UIWindow+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+.swift"; path = "Sources/AYPopupPickerView/UIWindow+.swift"; sourceTree = "<group>"; };
+		159BAFED0AF0B198FC5ACA1788FECF31 /* Pods-CurrencyExchange-CurrencyExchangeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyExchange-CurrencyExchangeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17B58EA46C1791D7E498D0153B2BC19C /* Pods-CurrencyExchange-CurrencyExchangeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CurrencyExchange-CurrencyExchangeUITests.modulemap"; sourceTree = "<group>"; };
+		1E99033786C3D578A3F4CB1C42549AD0 /* AYPopupPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPopupPickerView.swift; path = Sources/AYPopupPickerView/AYPopupPickerView.swift; sourceTree = "<group>"; };
+		29C72376E24FB0354A2AC443A5AE6FC4 /* Pods-CurrencyExchange-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyExchange-Info.plist"; sourceTree = "<group>"; };
+		2F2B716F501744D7F645F91445BD79C5 /* AYPopupPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYPopupPickerView-dummy.m"; sourceTree = "<group>"; };
+		3BD8A0D6747D0DFB1D24CBDE8948C2D8 /* Pods-CurrencyExchange.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CurrencyExchange.modulemap"; sourceTree = "<group>"; };
+		4FCBB6AD74F4064EF1E187F2FCF4E914 /* Pods-CurrencyExchange-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CurrencyExchange-dummy.m"; sourceTree = "<group>"; };
+		52B7AF746A7119C64ECBF0336857622D /* Pods-CurrencyExchange-CurrencyExchangeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyExchange-CurrencyExchangeUITests-Info.plist"; sourceTree = "<group>"; };
+		547F35A978F0ADA9A223320E314E5F24 /* Pods-CurrencyExchange-CurrencyExchangeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CurrencyExchange-CurrencyExchangeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		56884B84D8B081672A01E5FD1F140186 /* AYPopupPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPopupPickerView-umbrella.h"; sourceTree = "<group>"; };
+		58F3CAA8C07180041FC4FA26503F12B6 /* AYPopupPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYPopupPickerView.modulemap; sourceTree = "<group>"; };
+		66DBFE87CAE7FB6115C20DAF4C90D476 /* Pods-CurrencyExchange-CurrencyExchangeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyExchange-CurrencyExchangeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7830EA55C97AF1A616230CADC67A32C5 /* AYPopupPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPopupPickerView-prefix.pch"; sourceTree = "<group>"; };
+		8F75AFDBC61CB21CFC7E02FEA907C5B6 /* Pods-CurrencyExchangeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyExchangeTests-Info.plist"; sourceTree = "<group>"; };
+		92765267A197C4FF3AEA55C09C5A49CE /* Pods-CurrencyExchangeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CurrencyExchangeTests-dummy.m"; sourceTree = "<group>"; };
+		94953D765F2FED1BD5E5AB7471BA1612 /* Pods-CurrencyExchangeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CurrencyExchangeTests-umbrella.h"; sourceTree = "<group>"; };
+		9A0D85D6C73C634724739AA5A3178675 /* AYPopupDatePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYPopupDatePickerView.swift; path = Sources/AYPopupPickerView/AYPopupDatePickerView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20210B8131A623B1CC351162112449F /* Pods-CurrencyExchange-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyExchange-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9F437567037D900FAF279A421308A90 /* Pods-CurrencyExchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyExchange.release.xcconfig"; sourceTree = "<group>"; };
+		AABDD6D53C869873356405091C5BA0D1 /* Pods-CurrencyExchangeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyExchangeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEB62B239BE470B5FA82195CC0504552 /* Pods-CurrencyExchange-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CurrencyExchange-frameworks.sh"; sourceTree = "<group>"; };
+		B0628CEAE6106960F62C2BDA913202EC /* AYPopupPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AYPopupPickerView.framework; path = AYPopupPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B681375BE7D4AF0AEB2123E8F35F9933 /* Pods-CurrencyExchangeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CurrencyExchangeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B877379C5AFAAFBCE5D0C86A19AC5719 /* AYPopupPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPopupPickerView.release.xcconfig; sourceTree = "<group>"; };
+		B8C3A87A50B325E39E1505776DAC337C /* Pods-CurrencyExchangeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CurrencyExchangeTests.modulemap"; sourceTree = "<group>"; };
+		BF8BDAC8BFA928F237D2D678C99DFD63 /* Pods-CurrencyExchange-CurrencyExchangeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CurrencyExchange-CurrencyExchangeUITests-umbrella.h"; sourceTree = "<group>"; };
+		C1973F509E71B12B01BD37C71D69F14A /* Pods-CurrencyExchangeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyExchangeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D056D34DBFF0E45513351C14E8B12164 /* Pods-CurrencyExchange-CurrencyExchangeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyExchange-CurrencyExchangeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE9794F1F0F6E6442D453CDBAD9D2104 /* Pods-CurrencyExchange-CurrencyExchangeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CurrencyExchange-CurrencyExchangeUITests-dummy.m"; sourceTree = "<group>"; };
+		DF89A8E331C52ED05DB8D9863D70544F /* AYPopupPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYPopupPickerView-Info.plist"; sourceTree = "<group>"; };
+		E65CDDA77D52F732983F844A9DFA5211 /* Pods_CurrencyExchange_CurrencyExchangeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CurrencyExchange_CurrencyExchangeUITests.framework; path = "Pods-CurrencyExchange-CurrencyExchangeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90EEC2CB5AEAACA12090926E08A739 /* Pods_CurrencyExchangeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CurrencyExchangeTests.framework; path = "Pods-CurrencyExchangeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA17631445F6F0AE3576517456860C5 /* Pods-CurrencyExchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyExchange.debug.xcconfig"; sourceTree = "<group>"; };
+		F48080F74B63CE0D8C2149A90BC15CAA /* Pods-CurrencyExchange-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CurrencyExchange-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F96770AC76A0BB7AB06B1377867974D3 /* Pods-CurrencyExchangeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyExchangeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D2B49A9D2CB799B839ACCD55F70092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541FC73F729F94036F8734DE14BBC791 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B97F6F353D3A0020AD36480C533513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D47189BCF27BF8CBA9B39DE7F6A393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA6709E421450678775737579652CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87345D72BCF2E8D8175349DDD0EADF09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09B150DD9EAF3A51E54227A893C18F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6369D223A207A4198449454CC6CD57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C80854946603CA8DD83E911438F7A0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCF09C554FB845B4DA1A288F4BF78AB4 /* Pods-CurrencyExchange */,
+				4FDD3C03B389763FEC798147FE9F0B60 /* Pods-CurrencyExchange-CurrencyExchangeUITests */,
+				F442A1D164C872E58A4178B53505DBC1 /* Pods-CurrencyExchangeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28BF4A1CAE6CEE9B2B2CDC9ED5FADBF0 /* AYPopupPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9A0D85D6C73C634724739AA5A3178675 /* AYPopupDatePickerView.swift */,
+				1E99033786C3D578A3F4CB1C42549AD0 /* AYPopupPickerView.swift */,
+				151E7E330C6F24FDD083C7692E610D4F /* UIWindow+.swift */,
+				DBCD752E3831E63154464C4A81E549FD /* Support Files */,
+			);
+			name = AYPopupPickerView;
+			path = AYPopupPickerView;
+			sourceTree = "<group>";
+		};
+		4FDD3C03B389763FEC798147FE9F0B60 /* Pods-CurrencyExchange-CurrencyExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17B58EA46C1791D7E498D0153B2BC19C /* Pods-CurrencyExchange-CurrencyExchangeUITests.modulemap */,
+				1158F8077B3CBA39736DFAD1765F83E7 /* Pods-CurrencyExchange-CurrencyExchangeUITests-acknowledgements.markdown */,
+				D056D34DBFF0E45513351C14E8B12164 /* Pods-CurrencyExchange-CurrencyExchangeUITests-acknowledgements.plist */,
+				DE9794F1F0F6E6442D453CDBAD9D2104 /* Pods-CurrencyExchange-CurrencyExchangeUITests-dummy.m */,
+				547F35A978F0ADA9A223320E314E5F24 /* Pods-CurrencyExchange-CurrencyExchangeUITests-frameworks.sh */,
+				52B7AF746A7119C64ECBF0336857622D /* Pods-CurrencyExchange-CurrencyExchangeUITests-Info.plist */,
+				BF8BDAC8BFA928F237D2D678C99DFD63 /* Pods-CurrencyExchange-CurrencyExchangeUITests-umbrella.h */,
+				159BAFED0AF0B198FC5ACA1788FECF31 /* Pods-CurrencyExchange-CurrencyExchangeUITests.debug.xcconfig */,
+				66DBFE87CAE7FB6115C20DAF4C90D476 /* Pods-CurrencyExchange-CurrencyExchangeUITests.release.xcconfig */,
+			);
+			name = "Pods-CurrencyExchange-CurrencyExchangeUITests";
+			path = "Target Support Files/Pods-CurrencyExchange-CurrencyExchangeUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D180ABE3B94775E8A188E82862DDB70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28BF4A1CAE6CEE9B2B2CDC9ED5FADBF0 /* AYPopupPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA438734191624516E28FFFFA2277A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0628CEAE6106960F62C2BDA913202EC /* AYPopupPickerView.framework */,
+				0EB70F624916531797A088D4426A1F0D /* Pods_CurrencyExchange.framework */,
+				E65CDDA77D52F732983F844A9DFA5211 /* Pods_CurrencyExchange_CurrencyExchangeUITests.framework */,
+				EC90EEC2CB5AEAACA12090926E08A739 /* Pods_CurrencyExchangeTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7D180ABE3B94775E8A188E82862DDB70 /* Pods */,
+				CA438734191624516E28FFFFA2277A0D /* Products */,
+				25C80854946603CA8DD83E911438F7A0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBCD752E3831E63154464C4A81E549FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F3CAA8C07180041FC4FA26503F12B6 /* AYPopupPickerView.modulemap */,
+				2F2B716F501744D7F645F91445BD79C5 /* AYPopupPickerView-dummy.m */,
+				DF89A8E331C52ED05DB8D9863D70544F /* AYPopupPickerView-Info.plist */,
+				7830EA55C97AF1A616230CADC67A32C5 /* AYPopupPickerView-prefix.pch */,
+				56884B84D8B081672A01E5FD1F140186 /* AYPopupPickerView-umbrella.h */,
+				079897D03A70D22864309E06E5608916 /* AYPopupPickerView.debug.xcconfig */,
+				B877379C5AFAAFBCE5D0C86A19AC5719 /* AYPopupPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AYPopupPickerView";
+			sourceTree = "<group>";
+		};
+		F442A1D164C872E58A4178B53505DBC1 /* Pods-CurrencyExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8C3A87A50B325E39E1505776DAC337C /* Pods-CurrencyExchangeTests.modulemap */,
+				B681375BE7D4AF0AEB2123E8F35F9933 /* Pods-CurrencyExchangeTests-acknowledgements.markdown */,
+				F96770AC76A0BB7AB06B1377867974D3 /* Pods-CurrencyExchangeTests-acknowledgements.plist */,
+				92765267A197C4FF3AEA55C09C5A49CE /* Pods-CurrencyExchangeTests-dummy.m */,
+				8F75AFDBC61CB21CFC7E02FEA907C5B6 /* Pods-CurrencyExchangeTests-Info.plist */,
+				94953D765F2FED1BD5E5AB7471BA1612 /* Pods-CurrencyExchangeTests-umbrella.h */,
+				AABDD6D53C869873356405091C5BA0D1 /* Pods-CurrencyExchangeTests.debug.xcconfig */,
+				C1973F509E71B12B01BD37C71D69F14A /* Pods-CurrencyExchangeTests.release.xcconfig */,
+			);
+			name = "Pods-CurrencyExchangeTests";
+			path = "Target Support Files/Pods-CurrencyExchangeTests";
+			sourceTree = "<group>";
+		};
+		FCF09C554FB845B4DA1A288F4BF78AB4 /* Pods-CurrencyExchange */ = {
+			isa = PBXGroup;
+			children = (
+				3BD8A0D6747D0DFB1D24CBDE8948C2D8 /* Pods-CurrencyExchange.modulemap */,
+				F48080F74B63CE0D8C2149A90BC15CAA /* Pods-CurrencyExchange-acknowledgements.markdown */,
+				A20210B8131A623B1CC351162112449F /* Pods-CurrencyExchange-acknowledgements.plist */,
+				4FCBB6AD74F4064EF1E187F2FCF4E914 /* Pods-CurrencyExchange-dummy.m */,
+				AEB62B239BE470B5FA82195CC0504552 /* Pods-CurrencyExchange-frameworks.sh */,
+				29C72376E24FB0354A2AC443A5AE6FC4 /* Pods-CurrencyExchange-Info.plist */,
+				0016B6131AB8BC931E1DE047D58E7EC9 /* Pods-CurrencyExchange-umbrella.h */,
+				EEA17631445F6F0AE3576517456860C5 /* Pods-CurrencyExchange.debug.xcconfig */,
+				A9F437567037D900FAF279A421308A90 /* Pods-CurrencyExchange.release.xcconfig */,
+			);
+			name = "Pods-CurrencyExchange";
+			path = "Target Support Files/Pods-CurrencyExchange";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		199C9954EC52EC9DC1E123751588D166 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0734039BBD836749E5EBE6FF95454B /* Pods-CurrencyExchange-CurrencyExchangeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258D38575A36E525E9DC21DF8995CD42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C65A7C8B1AEE5469F35E4D2D7B1D49F /* Pods-CurrencyExchange-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D82813D5D41AF12A5B61F53A55CA31B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716DFB4A3702A71F649BC7485D761268 /* Pods-CurrencyExchangeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C0E94678A558E181C2E879BDB93AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44A75441F308F107C0C908A259990ED /* AYPopupPickerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24FC30F6F2D627F041D7803A9B38888F /* Pods-CurrencyExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8483ACDD37EEA9E5C90FFBBED2EEF0 /* Build configuration list for PBXNativeTarget "Pods-CurrencyExchange" */;
+			buildPhases = (
+				258D38575A36E525E9DC21DF8995CD42 /* Headers */,
+				59DE93F0AC135992EB3D721B2D680A11 /* Sources */,
+				CBA6709E421450678775737579652CC4 /* Frameworks */,
+				8CA3282AA5B2483D616D40B0EF82614E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7EBD997DD213C2CC48E9FBF404CDFB /* PBXTargetDependency */,
+			);
+			name = "Pods-CurrencyExchange";
+			productName = "Pods-CurrencyExchange";
+			productReference = 0EB70F624916531797A088D4426A1F0D /* Pods_CurrencyExchange.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		619D9ABBB885B02F8E30A42F19660CE5 /* Pods-CurrencyExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C7D293BCC47E8DFBC9105D2E358729 /* Build configuration list for PBXNativeTarget "Pods-CurrencyExchangeTests" */;
+			buildPhases = (
+				5D82813D5D41AF12A5B61F53A55CA31B /* Headers */,
+				5091FB64EA0D14EC3234005592E38668 /* Sources */,
+				55B97F6F353D3A0020AD36480C533513 /* Frameworks */,
+				091214486A568B5633DD05C5B88EB3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB31463FC06DE24EC012FAD71985FCB /* PBXTargetDependency */,
+			);
+			name = "Pods-CurrencyExchangeTests";
+			productName = "Pods-CurrencyExchangeTests";
+			productReference = EC90EEC2CB5AEAACA12090926E08A739 /* Pods_CurrencyExchangeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3BC4FCF692B358BC86F7530C578ECA3 /* Pods-CurrencyExchange-CurrencyExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF4DA30F89C81899F15970B9B2C8897 /* Build configuration list for PBXNativeTarget "Pods-CurrencyExchange-CurrencyExchangeUITests" */;
+			buildPhases = (
+				199C9954EC52EC9DC1E123751588D166 /* Headers */,
+				CC297D6829C836EB22B9CD1B464514CE /* Sources */,
+				25D2B49A9D2CB799B839ACCD55F70092 /* Frameworks */,
+				27E9D0D99F701481EA78036C4BDC333C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BCCA39A8F43105097729C6FA5127BC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CurrencyExchange-CurrencyExchangeUITests";
+			productName = "Pods-CurrencyExchange-CurrencyExchangeUITests";
+			productReference = E65CDDA77D52F732983F844A9DFA5211 /* Pods_CurrencyExchange_CurrencyExchangeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6F2A7FE151FA10B2E0E5548C0DCF4E4 /* AYPopupPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE56F9356EBBB8661CAD63B3F8F7FFB /* Build configuration list for PBXNativeTarget "AYPopupPickerView" */;
+			buildPhases = (
+				B3C0E94678A558E181C2E879BDB93AEA /* Headers */,
+				B84BE62A362D45DBB6909AF6394657B5 /* Sources */,
+				F09B150DD9EAF3A51E54227A893C18F7 /* Frameworks */,
+				20F8DAD00F0E01A00DAF39A4EF1D9FE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYPopupPickerView;
+			productName = AYPopupPickerView;
+			productReference = B0628CEAE6106960F62C2BDA913202EC /* AYPopupPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CA438734191624516E28FFFFA2277A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6F2A7FE151FA10B2E0E5548C0DCF4E4 /* AYPopupPickerView */,
+				24FC30F6F2D627F041D7803A9B38888F /* Pods-CurrencyExchange */,
+				D3BC4FCF692B358BC86F7530C578ECA3 /* Pods-CurrencyExchange-CurrencyExchangeUITests */,
+				619D9ABBB885B02F8E30A42F19660CE5 /* Pods-CurrencyExchangeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091214486A568B5633DD05C5B88EB3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20F8DAD00F0E01A00DAF39A4EF1D9FE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E9D0D99F701481EA78036C4BDC333C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA3282AA5B2483D616D40B0EF82614E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5091FB64EA0D14EC3234005592E38668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7491A198D5FDAF7EA59CA6F10933B41 /* Pods-CurrencyExchangeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DE93F0AC135992EB3D721B2D680A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F22C7688DE1EA7F1DC95AE6DC3E700 /* Pods-CurrencyExchange-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84BE62A362D45DBB6909AF6394657B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BC25BDB277AAE3333ADE6009EB006A /* AYPopupDatePickerView.swift in Sources */,
+				CDE9892F07D36AA99E95431216457235 /* AYPopupPickerView-dummy.m in Sources */,
+				F1B9B65D7836DF2FCFD926BA1542305D /* AYPopupPickerView.swift in Sources */,
+				D6D7C75571F41E8D0EE4A3588A51837B /* UIWindow+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC297D6829C836EB22B9CD1B464514CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500E7CBA7C9A4E02A1EA1226050279D7 /* Pods-CurrencyExchange-CurrencyExchangeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB31463FC06DE24EC012FAD71985FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CurrencyExchange";
+			target = 24FC30F6F2D627F041D7803A9B38888F /* Pods-CurrencyExchange */;
+			targetProxy = 9676543BA7F2C6734896048E19ED9843 /* PBXContainerItemProxy */;
+		};
+		5BCCA39A8F43105097729C6FA5127BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYPopupPickerView;
+			target = E6F2A7FE151FA10B2E0E5548C0DCF4E4 /* AYPopupPickerView */;
+			targetProxy = 79EE458F0B1E3F84047DB88A84DEB241 /* PBXContainerItemProxy */;
+		};
+		FC7EBD997DD213C2CC48E9FBF404CDFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYPopupPickerView;
+			target = E6F2A7FE151FA10B2E0E5548C0DCF4E4 /* AYPopupPickerView */;
+			targetProxy = 1D93687D8D71C0221300401C2527F9F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01FEA90F7B3D2FDD735E14CF8413C1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159BAFED0AF0B198FC5ACA1788FECF31 /* Pods-CurrencyExchange-CurrencyExchangeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CurrencyExchange-CurrencyExchangeUITests/Pods-CurrencyExchange-CurrencyExchangeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CurrencyExchange-CurrencyExchangeUITests/Pods-CurrencyExchange-CurrencyExchangeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19752C3F1807219BFA79C4C86DF6CD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F437567037D900FAF279A421308A90 /* Pods-CurrencyExchange.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CurrencyExchange/Pods-CurrencyExchange-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CurrencyExchange/Pods-CurrencyExchange.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E2B8E8C67AED91F1FAB214FE8627573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DBFE87CAE7FB6115C20DAF4C90D476 /* Pods-CurrencyExchange-CurrencyExchangeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CurrencyExchange-CurrencyExchangeUITests/Pods-CurrencyExchange-CurrencyExchangeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CurrencyExchange-CurrencyExchangeUITests/Pods-CurrencyExchange-CurrencyExchangeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F16053442B358F0C55ECB6074B6F037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1973F509E71B12B01BD37C71D69F14A /* Pods-CurrencyExchangeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CurrencyExchangeTests/Pods-CurrencyExchangeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CurrencyExchangeTests/Pods-CurrencyExchangeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B9342C1587827E8DAFC93E8AC4746C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079897D03A70D22864309E06E5608916 /* AYPopupPickerView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPopupPickerView/AYPopupPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPopupPickerView/AYPopupPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AYPopupPickerView/AYPopupPickerView.modulemap";
+				PRODUCT_MODULE_NAME = AYPopupPickerView;
+				PRODUCT_NAME = AYPopupPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D2530AC5ED4E0B7423EEBCF439ED4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABDD6D53C869873356405091C5BA0D1 /* Pods-CurrencyExchangeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CurrencyExchangeTests/Pods-CurrencyExchangeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CurrencyExchangeTests/Pods-CurrencyExchangeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7CD2F6DDD78BA1ACE2BC16900E804BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA17631445F6F0AE3576517456860C5 /* Pods-CurrencyExchange.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CurrencyExchange/Pods-CurrencyExchange-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CurrencyExchange/Pods-CurrencyExchange.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C44CD7C04270797B9A3E13B014AC6EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B877379C5AFAAFBCE5D0C86A19AC5719 /* AYPopupPickerView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPopupPickerView/AYPopupPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPopupPickerView/AYPopupPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AYPopupPickerView/AYPopupPickerView.modulemap";
+				PRODUCT_MODULE_NAME = AYPopupPickerView;
+				PRODUCT_NAME = AYPopupPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE56F9356EBBB8661CAD63B3F8F7FFB /* Build configuration list for PBXNativeTarget "AYPopupPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9342C1587827E8DAFC93E8AC4746C9 /* Debug */,
+				C44CD7C04270797B9A3E13B014AC6EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C7D293BCC47E8DFBC9105D2E358729 /* Build configuration list for PBXNativeTarget "Pods-CurrencyExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2530AC5ED4E0B7423EEBCF439ED4F2 /* Debug */,
+				4F16053442B358F0C55ECB6074B6F037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF4DA30F89C81899F15970B9B2C8897 /* Build configuration list for PBXNativeTarget "Pods-CurrencyExchange-CurrencyExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FEA90F7B3D2FDD735E14CF8413C1E0 /* Debug */,
+				3E2B8E8C67AED91F1FAB214FE8627573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8483ACDD37EEA9E5C90FFBBED2EEF0 /* Build configuration list for PBXNativeTarget "Pods-CurrencyExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD2F6DDD78BA1ACE2BC16900E804BF2 /* Debug */,
+				19752C3F1807219BFA79C4C86DF6CD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
